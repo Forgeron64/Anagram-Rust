@@ -107,6 +107,8 @@ fn main() {
 }
 
 // Prends en paramêtre un vecteur de chaine de caractere
+// trie par ordre alphabetique les caracteres d'une String
+// Renvoie une String
 
 fn char_to_string_alphabeticaly(x: String) -> String {
     let mut local = x.clone().chars().collect::<Vec<char>>();
